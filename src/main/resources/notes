@@ -1,0 +1,32 @@
+1. align
+2. type of system
+3. requirement :
+
+        - multiple floors
+        - multiple entry
+        - multiple exit
+        - type of vehicles
+        - at entry ticket is generated
+        - assign a spot
+        - payment has to be done
+        - different vehicle should have different parking slot
+        - different payment mode(UPI, cash)
+        - ticket should contain
+                - operator details
+                - vehicle details
+                - entry time
+
+4. questions regarding Implementation details
+    - support multiple ways to assign a spot
+    - how is the bill going to be calculated
+                    - duration of parking
+                    - type of vehicle
+    - multiple strategy for calculating fee
+    - payment algorithm
+        - for every type of vehicle base price should be different
+        - hourly multiplier
+
+5. VERSION 1.1
+    - multiple floor
+    - partial payments
+    - electric vehicle support
